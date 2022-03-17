@@ -1,0 +1,5 @@
+pay = int(input())
+counter = 0
+while pay%25!=0 and pay%10!=0 and pay%5!=0 and pay%1!=0:
+    counter+=1
+print (counter)
